@@ -1,0 +1,82 @@
+ body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background-color: whitesmoke;
+} 
+/* parent */
+#navbar {
+    background-color: pink;
+    height: 200px;
+
+display: flex;
+ /* justify-content: flex-end; */
+/* justify-content: center; */
+/* justify-content: flex-start; */
+/* justify-content: space-between; */
+  justify-content: space-evenly;  
+/* justify-content: space-around; */
+/* flex-direction: row-reverse;  */
+align-items:center ;
+/* flex-direction: row-reverse; */
+/* flex-direction: column; */
+/* flex-wrap: wrap; */
+}
+
+
+/* children */
+#navbar a {
+    /*a is for link in navbar  */
+    /* # navbar is id name */
+color: white;
+font-size: 25px;
+background: black ;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#navbar a:hover{
+color:darkgoldenrod;
+font-size: 40px;
+}
+
+.main-page { 
+    /* .main-page is class name we use . to track it*/
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 60px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   /* font-family: 'Times New Roman', Times, serif; */
+   border-style: solid;
+   border-width:5px;
+   border-color:black;
+   /* padding-bottom: 400px; */
+   /* padding-left: 25px; */
+   margin-top: 200px;
+} 
+p{
+    color:black;
+    font-size: 25px;
+     /* font-family: Arial, Helvetica, sans-serif; */
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: solid 5px black;
+}
+
+img {
+    width: 30%;
+    border: solid 10px white ; 
+}
+
+#cat-img {
+    width: 20%;
+    border: solid 10px white ;
+}
+/* using * {
+    font family: Arial will change all the font on your page)  */
+
+    #korma-img {
+        width: 30%;
+        border: solid 10px white;
+    }
