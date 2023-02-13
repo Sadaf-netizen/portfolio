@@ -1,82 +1,265 @@
- body {
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    background-color: whitesmoke;
-} 
-/* parent */
-#navbar {
-    background-color: pink;
-    height: 200px;
+ /* CDSS Reset */
+ *{
+    margin:0;
+    padding:0;
+ }
+ body{
+   background-image: url("bkg0.jpg");
+   /* background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;  */
+   /* background-repeat: no-repeat; */
+   background-repeat: no-repeat;
+   /* background-size: cover; */
+   /* background-size: contain; */
+   background-size: 100% 50%;
+ }
+ 
+ /* CSS Variables */
+ /* :root{
+    --navbar-height: 59px;
+ } */
+ /* Navigation bar */
 
-display: flex;
+ #navbar{
+    display: flex;
+   justify-content: space-around; 
+     background-color: pink;
+     position: relative;
+     height: 60px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+   /* Navigation bar : Logo and Image */
+   #logo {
+    margin: 10px 35px;
+   }
+
+   #logo img{
+    height: 60px;
+    margin: 30px 40px;
+ 
+   }
+
+   /* Navigation Bar: List styling  */
+
+   
+   /* #navbar ul{
+     display: flex;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   
+
+ #navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+ }
+ #navbar ul li {
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    justify-content: center;
+ } */
+
+ #navbar a:hover{
+    color:darkgoldenrod;
+    background-color: black;
+    font-size: 30px; 
+    }  
+
+    /* Home section */
+    #Home{
+        display: flex;
+        flex-direction: column;
+        padding:3px 200px;
+        height: 578 px;
+        justify-content: center;
+        align-items: center;
+     }
+     
+
+     #Home p{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family:Arial, Helvetica, sans-serif;
+     }
+
+       /* services section   */
+
+       #sevices{
+         margin: 34px;
+         display: flex;
+       }
+
+       #services .box p{
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         
+       }
+
+       /* Client Section */
+       #client section{
+         height: 344px;
+
+       }
+       #clients{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       }
+       .client item{
+         padding: 34px;
+       }
+       #clients img{
+         height: 124px;
+         
+       }
+       
+
+
+
+     /* utility classes */
+     .h-primary center{
+        font-size: 3.8rm;
+        padding: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .h-secondary center{
+        font-size: 2.3rm;
+        padding: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+
+
+     .btn{
+        padding: 6px 20px;
+        border: 2px solid white;
+        background-color: brown;
+        color: white;
+        margin: 17px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        cursor:pointer;
+     }
+     .center{
+        text-align: center;
+     }
+
+    /* services section   */
+    #services{
+        margin: 34px;
+        display: flex;
+    }
+    #services .box{
+        border: 2px solid brown;
+        border: 2px solid brown;
+        padding: 34px;
+        margin: 3px 6px;
+        border-radius: 28px;
+        background: rgb(225, 220, 220);
+    }
+
+     #services .box img{
+         height: 156px;
+         margin: auto;
+         display:block
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+/* parent */
+/* * #navbar {
+    background-color: pink;
+    height: 100%; 
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2; 
+} */
+
+/* display: flex; */
  /* justify-content: flex-end; */
 /* justify-content: center; */
 /* justify-content: flex-start; */
 /* justify-content: space-between; */
-  justify-content: space-evenly;  
+  /* justify-content: space-evenly;   */
 /* justify-content: space-around; */
 /* flex-direction: row-reverse;  */
-align-items:center ;
+/* align-items:center ; */
 /* flex-direction: row-reverse; */
 /* flex-direction: column; */
 /* flex-wrap: wrap; */
-}
+ /* }  */
 
 
 /* children */
-#navbar a {
+/* #navbar a { */
     /*a is for link in navbar  */
     /* # navbar is id name */
-color: white;
+/* color: white;
 font-size: 25px;
 background: black ;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+} */
 
-#navbar a:hover{
-color:darkgoldenrod;
-font-size: 40px;
-}
+ 
 
-.main-page { 
+/* .main-page {  */
     /* .main-page is class name we use . to track it*/
-    background-color: grey;
+    /* background-color: grey;
     display: flex;
     justify-content: center;
-}
+} */
 
-h1 {
+/* h1 {
     color: goldenrod;
     font-size: 60px;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
    /* font-family: 'Times New Roman', Times, serif; */
-   border-style: solid;
+   /* border-style: solid;
    border-width:5px;
-   border-color:black;
+   border-color:black; */
    /* padding-bottom: 400px; */
    /* padding-left: 25px; */
-   margin-top: 200px;
+   /* margin-top: 200px;
 } 
 p{
     color:black;
-    font-size: 25px;
+    font-size: 25px; */
      /* font-family: Arial, Helvetica, sans-serif; */
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   /* font-family: Georgia, 'Times New Roman', Times, serif;
    border: solid 5px black;
-}
+} */
 
-img {
-    width: 30%;
-    border: solid 10px white ; 
-}
+/* img {
+    width: 20%; */
+    /* border: solid 10px white ;  */
+/* }  */
 
-#cat-img {
+/* #cat-img {
     width: 20%;
     border: solid 10px white ;
-}
+} */
 /* using * {
     font family: Arial will change all the font on your page)  */
 
-    #korma-img {
-        width: 30%;
-        border: solid 10px white;
-    }
+    
